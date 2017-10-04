@@ -88,6 +88,9 @@ public class Driver {
 		list();
 	}
 
+	/*
+	 * list out all students, their associated modules and course
+	 */
 	public static void list() {
 		String studentInfo = "";
 		for (Iterator<Student> studentIt = allStudents.iterator(); studentIt.hasNext();) {
